@@ -1,0 +1,17 @@
+{
+  "name": "cakebudget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny group-budget tracker for a shared purchase.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.13.1",
+    "redis": "^4.7.0"
+  }
+}
